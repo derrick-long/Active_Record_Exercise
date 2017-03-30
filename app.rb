@@ -2,6 +2,8 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/reloader'
 require 'sinatra/flash'
+require_relative 'app/models/recipe.rb'
+require_relative 'app/models/comment.rb'
 
 enable :sessions
 
